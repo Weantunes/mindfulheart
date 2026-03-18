@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MindfulHeart | Transformação Organizacional e Neuroliderança</title>
+    <meta name="description"
+        content="A MindfulHeart une neurociência e desenvolvimento humano para transformar líderes e culturas corporativas.">
+
+    <!-- Design premium: Modern fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo"
+                style="display: flex; flex-direction: row; align-items: center; gap: 12px; text-decoration: none;">
+                <img src="logo.png" alt="MindfulHeart Logo" class="brand-logo" style="height: 50px; width: auto;">
+                <div
+                    style="font-family: var(--font-heading); font-size: 1.1rem; font-weight: 800; letter-spacing: 0.5px; line-height: 1;">
+                    <span style="color: var(--color-primary-dark);">MIND</span><span
+                        style="color: #A97C50;">ful</span><span style="color: #800020;">HEART</span>
+                </div>
+            </a>
+            <div class="nav-links">
+                <a href="#problema" class="nav-item">Propósito</a>
+                <a href="#solucao" class="nav-item">Metodologia</a>
+                <a href="#servicos" class="nav-item">Serviços</a>
+                <a href="#fundadoras" class="nav-item">Fundadoras</a>
+            </div>
+            <a href="https://api.whatsapp.com/send/?phone=5511958697000" target="_blank" class="nav-cta">
+                <i class="fab fa-whatsapp"></i> WhatsApp
+            </a>
+
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- FLOATING WHATSAPP -->
+    <a href="https://api.whatsapp.com/send/?phone=5511958697000" class="floating-wa" target="_blank"
+        aria-label="Falar no WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- HERO SECTION -->
+    <header class="hero pt-section">
+        <canvas id="hero-particles"></canvas>
+        <div class="container hero-content"
+            style="display: flex; align-items: center; justify-content: space-between; gap: 40px;">
+            <div class="hero-text reveal-up" style="flex: 1;">
+                <span class="eyebrow">Governança Humana e Transformação Cultural</span>
+                <h1 class="display-title">Transformação organizacional começa<br><span class="gradient-text">na mente e
+                        no coração.</span></h1>
+                <p class="hero-subtitle">Programas corporativos que unem neurociência e inteligência relacional para
+                    desenvolver culturas saudáveis, times conscientes e líderes preparados para o futuro.</p>
+                <div class="hero-actions">
+                    <a href="#cta" class="btn btn-primary">Solicitar uma reunião</a>
+                    <a href="https://api.whatsapp.com/send/?phone=5511958697000" target="_blank"
+                        class="btn btn-outline">
+                        Falar no WhatsApp <i class="fab fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image reveal-left" style="flex: 1; text-align: center;">
+                <img src="logo.png" alt="MindfulHeart Logo Grande"
+                    style="max-width: 100%; height: auto; max-height: 640px; transform: scale(1.6); transform-origin: center right; filter: drop-shadow(0 0 20px rgba(255,255,255,0.1));">
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </header>
+
+    <!-- O PROBLEMA NAS EMPRESAS -->
+    <section id="problema" class="section bg-light problem-section">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <h2 class="section-title">O futuro exige <span class="gradient-text">mais do que
+                        técnica.</span><br>Exige humanidade consciente.</h2>
+                <p class="section-desc" style="margin-top: 16px;">O ambiente corporativo atual enfrenta desafios
+                    invisíveis que consomem
+                    resultados, talentos e vidas.</p>
+            </div>
+
+            <div class="problem-grid">
+                <div class="problem-card glass-card reveal-up" style="transition-delay: 100ms">
+                    <div class="problem-icon"><i class="fas fa-battery-quarter"></i></div>
+                    <h4>Líderes Sobrecarregados</h4>
+                    <p>A cultura de alta pressão sem suporte adequado resulta em exaustão mental profunda.</p>
+                </div>
+                <div class="problem-card glass-card reveal-up" style="transition-delay: 200ms">
+                    <div class="problem-icon"><i class="fas fa-fire-alt"></i></div>
+                    <h4>Burnout Crescente</h4>
+                    <p>O esgotamento sistêmico compromete a retenção de talentos e o clima organizacional.</p>
+                </div>
+                <div class="problem-card glass-card reveal-up" style="transition-delay: 300ms">
+                    <div class="problem-icon"><i class="fas fa-users-slash"></i></div>
+                    <h4>Comunicação Falha</h4>
+                    <p>Silos organizacionais e falta de escuta ativa destroem a colaboração genuína.</p>
+                </div>
+                <div class="problem-card glass-card reveal-up" style="transition-delay: 400ms">
+                    <div class="problem-icon"><i class="fas fa-shield-alt"></i></div>
+                    <h4>Insegurança Emocional</h4>
+                    <p>Ambientes onde o medo lidera inibem a inovação e o engajamento autêntico.</p>
+                </div>
+                <div class="problem-card glass-card reveal-up" style="transition-delay: 500ms">
+                    <div class="problem-icon"><i class="fas fa-link"></i></div>
+                    <h4>Baixa Conexão</h4>
+                    <p>Times desconectados perdem propósito e não conseguem sustentar a performance no longo prazo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- A SOLUÇÃO MINDFULHEART -->
+    <section id="solucao" class="section solution-section dark-section">
+        <div class="particles-bg" id="solution-particles"></div>
+        <div class="container relative-z">
+            <div class="section-header light context-center reveal-up">
+                <h2 class="section-title">A Solução MindfulHeart</h2>
+                <p class="section-desc">Unimos consciência + amor + estratégia + performance.
+                    <br> Provocamos reflexões profundas e abordamos verdades incômodas para promover mudanças de
+                    comportamentos que realmente duram.
+                </p>
+            </div>
+
+            <div class="circles-animation-container reveal-scale">
+                <a href="https://www.dehumanos.com.br" target="_blank" class="circle neuroscience"
+                    style="text-decoration: none; color: inherit; cursor: pointer;">
+                    <div class="circle-content">
+                        <h3>de.Humanos</h3>
+                        <span>Neurociência Aplicada</span>
+                        <p>Como decisões, emoções e liderança são influenciadas pelo cérebro em nível biológico e
+                            cognitivo.</p>
+                    </div>
+                </a>
+                <div class="connection-pulse">
+                    <div class="pulse-ring"></div>
+                    <i class="fas fa-plus"></i>
+                </div>
+                <a href="https://www.amorcorporativo.com.br" target="_blank" class="circle amor-corp"
+                    style="text-decoration: none; color: inherit; cursor: pointer;">
+                    <div class="circle-content">
+                        <h3>Amor Corporativo</h3>
+                        <span>Humanização da Liderança</span>
+                        <p>O desenvolvimento de líderes conscientes, empáticos e estratégicos através da inteligência
+                            relacional.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="solution-result reveal-up">
+                <h3 class="gradient-text-gold">Sustentabilidade Organizacional</h3>
+                <p>Resultados consistentes sem comprometer a saúde e o bem-estar das equipes.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVIÇOS CORPORATIVOS -->
+    <section id="servicos" class="section services-section bg-light">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <h2 class="section-title">Serviços <span class="gradient-text">Corporativos</span></h2>
+                <p class="section-desc">Intervenções estratégicas desenhadas sob medida para o momento e a cultura da
+                    sua empresa.</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card reveal-left">
+                    <div class="service-icon"><i class="fas fa-brain"></i></div>
+                    <h3>Neuroliderança</h3>
+                    <p>Desenvolvimento da liderança compreendendo a estrutura cerebral da tomada de decisão e regulação
+                        emocional.</p>
+                </div>
+                <div class="service-card reveal-up">
+                    <div class="service-icon"><i class="fas fa-heartbeat"></i></div>
+                    <h3>Burnout e Saúde Mental</h3>
+                    <p>Programas preventivos e interventivos para proteger a mente de líderes e colaboradores em
+                        ambientes de alta pressão.</p>
+                </div>
+                <div class="service-card reveal-right">
+                    <div class="service-icon"><i class="fas fa-comments"></i></div>
+                    <h3>Comunicação Consciente</h3>
+                    <p>Treinamentos focados em escuta ativa, CNV (Comunicação Não-Violenta) e resolução empática de
+                        conflitos.</p>
+                </div>
+                <div class="service-card reveal-left">
+                    <div class="service-icon"><i class="fas fa-balance-scale"></i></div>
+                    <h3>Assédio e Compliance</h3>
+                    <p>Treinamentos humanizados para identificação, prevenção e mitigação de violências morais
+                        corporativas.</p>
+                </div>
+                <div class="service-card reveal-up">
+                    <div class="service-icon"><i class="fas fa-user-circle"></i></div>
+                    <h3>Autoconsciência para Líderes</h3>
+                    <p>Mapeamento de perfis, gatilhos de estresse e desenvolvimento pleno das soft skills de gestão
+                        contemporânea.</p>
+                </div>
+                <div class="service-card reveal-right">
+                    <div class="service-icon"><i class="fas fa-chart-line"></i></div>
+                    <h3>Diagnóstico Psicossocial (NR-01)</h3>
+                    <p>Análise profunda para mitigação de riscos, adequação regulatória com plano de ação estratégico e
+                        monitoramento.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERIÊNCIAS -->
+    <section id="experiencias" class="section experience-section">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <h2 class="section-title">Nossas <span class="gradient-text">Experiências</span></h2>
+                <p class="section-desc">Formatos múltiplos para atender a profundidade de transformação que o seu time
+                    necessita.</p>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item reveal-right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <h3>Palestras Corporativas</h3>
+                        <p>Ponto de ignição. Intervenções de alto impacto emocional e intelectual para provocar mudanças
+                            de perspectiva e inspirar grandes audiências em convenções e eventos.</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal-left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <h3>Workshops Imersivos</h3>
+                        <p>Aprofundamento prático. Sessões desenhadas para aplicação imediata de conceitos
+                            neurocientíficos no dia a dia dos times, estimulando alinhamento e clareza.</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal-right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <h3>Programas de Desenvolvimento</h3>
+                        <p>A jornada completa. Estruturas contínuas modulares que acompanham a evolução cultural das
+                            equipes, medindo engajamento, evolução e aprendizado com o tempo.</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal-left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <h3>Treinamentos Executivos</h3>
+                        <p>Mentoria premium para o C-Level e lideranças estratégicas, operando diretamente nas travas
+                            emocionais de quem toma as decisões macro do negócio.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FUNDADORAS -->
+    <section id="fundadoras" class="section founders-section bg-light">
+        <div class="container">
+            <div class="section-header context-center reveal-up">
+                <h2 class="section-title">As mentes por trás <span class="gradient-text">da MindfulHeart</span></h2>
+            </div>
+
+            <div class="founders-grid">
+                <!-- Gabriela Nunes -->
+                <div class="founder-card reveal-up">
+                    <div class="founder-image-wrapper">
+                        <!-- We use typical premium portrait proportions -->
+                        <div class="founder-image-bg"></div>
+                        <!-- Placeholders indicating where user should put images -->
+                        <img src="Gabriela.jpg" alt="Gabriela Nunes" class="founder-img"
+                            onerror="this.src='https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'">
+                    </div>
+                    <div class="founder-info glass-card">
+                        <h3>Gabriela Nunes</h3>
+                        <span class="founder-role">Especialista / Cofundadora</span>
+                        <p>Visão estratégica com profundo embasamento em neuroliderança. Gabriela transforma a
+                            complexidade do cérebro humano em dados tangíveis para criar performance sem prejuízo da
+                            saúde mental.</p>
+                    </div>
+                </div>
+
+                <!-- Samanta Camargo -->
+                <div class="founder-card reveal-up" style="transition-delay: 200ms">
+                    <div class="founder-image-wrapper">
+                        <div class="founder-image-bg"></div>
+                        <img src="Samanta.jpg" alt="Samanta Camargo" class="founder-img"
+                            onerror="this.src='https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'">
+                    </div>
+                    <div class="founder-info glass-card">
+                        <h3>Samanta Camargo</h3>
+                        <span class="founder-role">Especialista / Cofundadora</span>
+                        <p>Autoridade no desenvolvimento da liderança contemporânea. Samanta traz o poder do amor
+                            corporativo como ferramenta tecnológica de engajamento, empatia e sustentabilidade de
+                            negócio.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DIFERENCIAIS & RESULTADOS -->
+    <section id="diferencial" class="section dark-section">
+        <div class="container">
+            <div class="two-column-layout">
+                <div class="diferenciais-content reveal-left">
+                    <h2 class="section-title light">O Diferencial <span class="gradient-text-gold">MindfulHeart</span>
+                    </h2>
+
+                    <ul class="diferenciais-list">
+                        <li>
+                            <i class="fas fa-flask"></i>
+                            <div>
+                                <h4>Base Científica e Neurológica</h4>
+                                <p>Nossos métodos são fundamentados nas mais recentes descobertas sobre o funcionamento
+                                    do cérebro aplicado ao ambiente de trabalho.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fas fa-project-diagram"></i>
+                            <div>
+                                <h4>Metodologia Proprietária Diferenciada</h4>
+                                <p>A intersecção exclusiva entre os conceitos do de.Humanos e Amor Corporativo cria uma
+                                    abordagem única no mercado global.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fas fa-hand-holding-heart"></i>
+                            <div>
+                                <h4>Além da Superfície</h4>
+                                <p>Trabalhamos a transformação raiz que sustenta o longo prazo. Provocamos reflexões
+                                    profundas e abordamos verdades incômodas para evitar mudanças efêmeras.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fas fa-puzzle-piece"></i>
+                            <div>
+                                <h4>Conteúdos Sob Medida</h4>
+                                <p>Construímos ambientes responsáveis e sustentáveis onde as pessoas são o núcleo de
+                                    verdade da estratégia, desenhando dinâmicas exclusivas para a realidade do seu time.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="resultados-content reveal-right">
+                    <div class="glass-card results-box">
+                        <h3 class="results-title">Resultados Esperados</h3>
+                        <p class="results-desc">O impacto de cultivar uma cultura MindfulHeart na corporação torna-se
+                            tangível rapidamente.</p>
+
+                        <div class="result-bars">
+                            <div class="result-item">
+                                <div class="result-label"><span>Comunicação e Alinhamento</span> <span>92%</span></div>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 0" data-width="92%"></div>
+                                </div>
+                            </div>
+                            <div class="result-item">
+                                <div class="result-label"><span>Mitigação de Riscos (NR-01)</span> <span>88%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 0" data-width="88%"></div>
+                                </div>
+                            </div>
+                            <div class="result-item">
+                                <div class="result-label"><span>Segurança Psicológica</span> <span>96%</span></div>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 0" data-width="96%"></div>
+                                </div>
+                            </div>
+                            <div class="result-item">
+                                <div class="result-label"><span>Redução de Conflitos</span> <span>85%</span></div>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 0" data-width="85%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CLIENTES -->
+    <section id="clientes" class="section bg-light clients-section">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <span class="eyebrow gradient-text">+ de 100 Grandes Marcas Transformadas</span>
+                <h2 class="section-title">Confiam na <span class="gradient-text">Nossa Visão</span></h2>
+                <p class="section-desc">Referência em grandes corporações de múltiplos segmentos.</p>
+            </div>
+
+            <div class="clients-categories reveal-up">
+                <div class="client-cat-col">
+                    <h4><i class="fas fa-pills"></i> Indústria & Farma</h4>
+                    <ul>
+                        <li>AstraZeneca</li>
+                        <li>Hypera Pharma</li>
+                        <li>Medic Solution</li>
+                        <li>Gerdau</li>
+                        <li>Saint-Gobain</li>
+                        <li>Thermo Fisher</li>
+                    </ul>
+                </div>
+
+                <div class="client-cat-col">
+                    <h4><i class="fas fa-leaf"></i> Agronegócio & Alimentos</h4>
+                    <ul>
+                        <li>Agrícola Schmidt</li>
+                        <li>Fiagril</li>
+                        <li>AgroGalaxy</li>
+                        <li>Tereos / John Deere</li>
+                        <li>Hershey's / Seara</li>
+                        <li>Ambev / Dellys</li>
+                    </ul>
+                </div>
+
+                <div class="client-cat-col">
+                    <h4><i class="fas fa-seedling"></i> Celulose & Indústria Base</h4>
+                    <ul>
+                        <li>Eldorado Brasil</li>
+                        <li>Veracel</li>
+                        <li>Oji Papéis Especiais</li>
+                        <li>Oxiteno</li>
+                        <li>Elekeiroz</li>
+                    </ul>
+                </div>
+
+                <div class="client-cat-col">
+                    <h4><i class="fas fa-microchip"></i> Tech, Automotivo & Outros</h4>
+                    <ul>
+                        <li>Banco do Brasil / Correios</li>
+                        <li>Honda / Chevrolet / Rumo</li>
+                        <li>Atos / GFT / Venturus</li>
+                        <li>Engie / SEBRAE / SENAC</li>
+                        <li>Grupo HDI / Allcom</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section id="cta" class="section final-cta-section dark-section">
+        <canvas id="cta-particles"></canvas>
+        <div class="glass-overlay"></div>
+        <div class="container final-cta-content reveal-scale">
+            <h2 class="display-title light">Sua empresa está preparada para liderar o futuro humano do trabalho?</h2>
+            <p>Dê o primeiro passo em direção à transformação da jornada dos seus líderes.</p>
+
+            <div class="cta-buttons-wrapper mt-4">
+                <a href="https://api.whatsapp.com/send/?phone=5511958697000" target="_blank"
+                    class="btn btn-primary btn-glow btn-large">
+                    Agendar Reunião Agora
+                </a>
+                <a href="https://api.whatsapp.com/send/?phone=5511958697000" target="_blank"
+                    class="btn btn-secondary btn-outline-light btn-large">
+                    <i class="fab fa-whatsapp"></i> Falar no WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <span class="logo-title">MINDFULHEART</span>
+                        <span class="logo-subtitle">Mente consciente, coração presente.</span>
+                    </div>
+                    <p class="mt-2 text-small">Consultoria global de humanização de corporações baseada em ciência,
+                        neurociência aplicada e inteligência relacional.</p>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Institucional</h4>
+                    <a href="#solucao">A Solução</a>
+                    <a href="#servicos">Serviços corporativos</a>
+                    <a href="#experiencias">Experiências</a>
+                    <a href="#fundadoras">Fundadoras</a>
+                    <a href="#clientes">Clientes</a>
+                </div>
+
+                <div class="footer-contact">
+                    <h4>Contato</h4>
+                    <a href="mailto:contato@mindfulheart.com.br"><i class="fas fa-envelope"></i>
+                        contato@mindfulheart.com.br</a>
+                    <a href="#"><i class="fas fa-map-marker-alt"></i> São Paulo, SP, Brasil</a>
+                    <a href="https://api.whatsapp.com/send/?phone=5511958697000" target="_blank"
+                        class="highlight-contact"><i class="fab fa-whatsapp"></i> +55 11 95869-7000</a>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 MindfulHeart. Todos os direitos reservados. <span>Unindo de.Humanos e Amor
+                        Corporativo</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
